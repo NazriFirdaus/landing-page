@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;scroll-behavior:smooth;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"inverse-surface":"#213145","secondary-container":"#dae2fd","outline":"#6f7978","primary":"#004340","on-surface-variant":"#3f4947","error-container":"#ffdad6","surface-dim":"#cbdbf5","on-primary-fixed-variant":"#00504c","primary-fixed-dim":"#8fd3cd","inverse-on-surface":"#eaf1ff","surface":"#f8f9ff","on-tertiary-fixed-variant":"#005047","surface-container":"#e5eeff","primary-container":"#0d5c58","on-tertiary-container":"#3bdcc7","surface-tint":"#216964","on-background":"#0b1c30","on-secondary-fixed-variant":"#3f465c","primary-fixed":"#abefe9","outline-variant":"#bec9c7","on-error-container":"#93000a","surface-container-low":"#eff4ff","on-primary-fixed":"#00201e","on-tertiary":"#ffffff","tertiary-container":"#005d53","surface-variant":"#d3e4fe","on-primary":"#ffffff","secondary-fixed-dim":"#bec6e0","secondary":"#565e74","on-error":"#ffffff","surface-container-high":"#dce9ff","secondary-fixed":"#dae2fd","on-tertiary-fixed":"#00201c","on-primary-container":"#8ed2cc","on-secondary-container":"#5c647a","on-secondary":"#ffffff","surface-container-highest":"#d3e4fe","background":"#f8f9ff","inverse-primary":"#8fd3cd","tertiary-fixed":"#62fae3","tertiary":"#00433c","on-secondary-fixed":"#131b2e","surface-container-lowest":"#ffffff","error":"#ba1a1a","on-surface":"#0b1c30","tertiary-fixed-dim":"#3cddc7","surface-bright":"#f8f9ff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin":"2rem","margin-mobile":"1rem","gutter":"1.5rem","space-md":"1rem","gutter-sm":"1rem","space-xs":"0.25rem","space-sm":"0.5rem","space-lg":"1.5rem","space-xl":"2rem","gutter-lg":"2rem","space-2xl":"3rem"},"fontFamily":{"headline-sm":["Plus Jakarta Sans"],"display-mobile":["Plus Jakarta Sans"],"display":["Plus Jakarta Sans"],"label-sm":["Inter"],"headline-lg-mobile":["Plus Jakarta Sans"],"financial-mono":["Inter"],"label-lg":["Inter"],"body-lg":["Inter"],"body-md":["Inter"],"body-sm":["Inter"],"headline-lg":["Plus Jakarta Sans"],"label-md":["Inter"],"headline-md":["Plus Jakarta Sans"]},"fontSize":{"headline-sm":["18px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"600"}],"display-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}],"display":["40px",{"lineHeight":"48px","letterSpacing":"-0.025em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"600"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"700"}],"financial-mono":["14px",{"lineHeight":"20px","letterSpacing":"-0.01em","fontWeight":"500"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.005em","fontWeight":"400"}],"headline-lg":["30px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"headline-md":["22px",{"lineHeight":"28px","letterSpacing":"-0.015em","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-[1280px] mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="KIRA Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfhW-sJtj5O5m6_N9T_bdYgdzqbxw1Qf_6p44iV3zfMBGv-Q-J3ByDnemN3q7ej2IOlYKAneGT9HxCFYe9jZLjlI3LgON63_4z8epZ5EpZu0ji6_oV3RreAx68sICdL2ubysxIWx166bzwA-a2iDPR3zzfXb5TgRJ8PP5opTolCjOdlJSxBRb6B6VcXjEvt6fqhttabyiA2aTQhFfFFFeEofdt1LgAmikgDrbNbA5NYl4x3eMW_wAhKwc"/><span class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">KIRA</span></div><nav class="hidden md:flex items-center gap-space-lg" data-active-classes="bg-primary-container text-on-primary font-label-md rounded-lg"><a aria-current="page" class="transition-colors py-space-xs px-space-sm bg-primary-container text-on-primary font-label-md rounded-lg" data-path="landing-page" href="#Features">Features</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm rounded" data-path="pricing" href="#Pricing">Pricing</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm rounded" data-path="faq" href="#FAQ">FAQ</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm rounded" data-path="contact" href="#Contact">Contact</a></nav><div class="flex items-center gap-space-md"><div class="flex items-center font-label-md text-label-md text-on-surface-variant"><button class="text-primary-container font-bold hover:text-primary transition-colors" type="button">EN</button><span class="px-space-xs text-outline-variant">|</span><button class="hover:text-on-surface transition-colors" type="button">BM</button></div><a class="hidden sm:inline-flex items-center justify-center h-10 px-space-lg rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors shadow-sm" href="#Pricing">Start free trial</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- 1. HERO SECTION -->
+<section class="w-full py-space-2xl bg-surface relative overflow-hidden">
+<div class="max-w-[1280px] mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
+<!-- Left: Copy & CTAs -->
+<div class="lg:col-span-7 flex flex-col items-start pr-0 lg:pr-space-lg">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-wider mb-space-md">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+            Sovereign Bookkeeping
+          </div>
+<h1 class="font-display text-display text-on-surface tracking-tight mb-space-md max-w-xl">
+            Bookkeeping that keeps itself up to date.
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg mb-space-xl">
+            Record sales and expenses, keep your receipts, and see how your business is really doing. Built for small businesses in Brunei.
+          </p>
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md w-full sm:w-auto">
+<a class="inline-flex items-center justify-center h-12 px-space-xl rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors shadow-sm" href="#Pricing">
+              Start free trial
+            </a>
+<a class="inline-flex items-center justify-center h-12 px-space-xl rounded-lg bg-surface-container-lowest text-on-surface font-label-lg text-label-lg shadow-[0_1px_3px_0_rgba(15,23,42,0.06)] hover:bg-surface-container-low transition-colors" href="#Pricing">
+              See pricing
+            </a>
+</div>
+<span class="font-body-sm text-body-sm text-secondary mt-space-sm">
+            No credit card needed.
+          </span>
+</div>
+<!-- Right: Sample Data Preview Card -->
+<div class="lg:col-span-5 w-full flex justify-center lg:justify-end mt-space-xl lg:mt-0">
+<div class="w-full max-w-md bg-surface-container-lowest rounded-xl p-space-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04),0_1px_2px_-1px_rgba(15,23,42,0.02)]">
+<div class="flex items-center justify-between pb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary-container text-[20px]">account_balance_wallet</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">KIRA Ledger</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary-container bg-surface-container px-space-sm py-space-xs rounded-full">
+                Sample data
+              </span>
+</div>
+<!-- Health Score Section -->
+<div class="p-space-md rounded-lg bg-surface-container-low mb-space-lg flex items-center justify-between">
+<div>
+<span class="block font-label-md text-label-md text-secondary">Business Health</span>
+<div class="flex items-baseline gap-space-xs mt-0.5">
+<span class="font-headline-lg text-headline-lg text-on-surface font-bold">88</span>
+<span class="font-body-md text-body-md text-secondary">/ 100</span>
+</div>
+</div>
+<div class="flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container-lowest text-primary-container font-label-sm text-label-sm shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+                Good
+              </div>
+</div>
+<!-- Metric Figures -->
+<div class="space-y-space-md">
+<div class="flex items-center justify-between p-space-sm rounded bg-surface">
+<span class="font-body-md text-body-md text-secondary">Revenue</span>
+<span class="font-financial-mono text-financial-mono text-on-surface font-semibold">BND 4,850.00</span>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded bg-surface">
+<span class="font-body-md text-body-md text-secondary">Expenses</span>
+<span class="font-financial-mono text-financial-mono text-secondary font-semibold">BND 2,120.00</span>
+</div>
+<div class="flex items-center justify-between p-space-md rounded-lg bg-surface-container">
+<span class="font-label-md text-label-md text-on-surface font-bold">Net profit</span>
+<span class="font-financial-mono text-financial-mono text-primary-container font-bold text-base">BND 2,730.00</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. WHAT WE OFFER SECTION -->
+<section class="w-full py-space-2xl bg-surface-container-lowest" id="Features">
+<div class="max-w-[1280px] mx-auto px-margin">
+<div class="max-w-2xl mb-space-2xl">
+<span class="font-label-sm text-label-sm text-primary-container uppercase tracking-wider block mb-space-xs">Capabilities</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          Everything you need to keep your books in order
+        </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Card 1 -->
+<div class="bg-surface p-space-xl rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary-container mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[24px]">post_add</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Record transactions</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">add sales, purchases and expenses in seconds.</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface p-space-xl rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary-container mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[24px]">receipt_long</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Keep your receipts</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">upload a photo and attach it to the entry.</p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface p-space-xl rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary-container mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[24px]">table_chart</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Profit and loss and balance sheet</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">reports built automatically from your entries.</p>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface p-space-xl rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary-container mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[24px]">monitor_heart</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Business health score</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">one clear score with simple ratings.</p>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface p-space-xl rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary-container mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[24px]">summarize</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Analysis report</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">a short written review you can download as PDF or Excel.</p>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="bg-surface p-space-xl rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary-container mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[24px]">smart_toy</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">AI assistant</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">ask questions about your own records in plain language.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. HOW IT WORKS SECTION -->
+<section class="w-full py-space-2xl bg-surface">
+<div class="max-w-[1280px] mx-auto px-margin">
+<div class="text-center max-w-xl mx-auto mb-space-2xl">
+<span class="font-label-sm text-label-sm text-primary-container uppercase tracking-wider block mb-space-xs">Onboarding</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          Up and running in three steps
+        </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter-lg">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] flex flex-col items-start relative">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary-container font-headline-sm text-headline-sm font-bold mb-space-lg">
+            1
+          </div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">Create your account.</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Get started in seconds with minimal setup and no complex onboarding workflows.</p>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] flex flex-col items-start relative">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary-container font-headline-sm text-headline-sm font-bold mb-space-lg">
+            2
+          </div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">Add your sales and expenses.</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Enter daily transactions seamlessly or photograph receipts for instant documentation.</p>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] flex flex-col items-start relative">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary-container font-headline-sm text-headline-sm font-bold mb-space-lg">
+            3
+          </div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">See your reports and health score.</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Watch real-time financial statements and high-clarity wellness metrics generate automatically.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. PRICING SECTION -->
+<section class="w-full py-space-2xl bg-surface-container-low" id="Pricing">
+<div class="max-w-[1280px] mx-auto px-margin">
+<div class="text-center max-w-xl mx-auto mb-space-2xl">
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mb-space-xs">
+          Simple monthly pricing
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Prices in BND. Cancel any time.
+        </p>
+</div>
+<!-- Pricing Cards -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter items-stretch mb-space-2xl">
+<!-- Starter Plan -->
+<div class="bg-surface-container-lowest rounded-xl p-space-xl flex flex-col justify-between shadow-[0_1px_3px_0_rgba(15,23,42,0.04)]">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Starter</h3>
+<div class="mt-space-md mb-space-lg">
+<span class="font-display text-display text-on-surface font-bold">BND 25</span>
+<span class="font-body-md text-body-md text-secondary"> / month</span>
+</div>
+<div class="space-y-space-sm pt-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface">1 user</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface">Limited transactions per month</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface">Profit and loss and balance sheet</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface">Business health score</span>
+</div>
+</div>
+</div>
+<div class="pt-space-xl">
+<button class="w-full h-11 rounded-lg bg-surface-container text-on-surface font-label-lg text-label-lg hover:bg-surface-container-high transition-colors" type="button">
+              Choose Starter
+            </button>
+</div>
+</div>
+<!-- Business Plan (Highlighted) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-xl flex flex-col justify-between shadow-md relative bg-gradient-to-b from-surface-container-lowest via-surface-container-lowest to-surface-container-low">
+<div class="absolute -top-3 left-1/2 -translate-x-1/2">
+<span class="bg-primary-container text-on-primary font-label-sm text-label-sm font-bold uppercase tracking-wider py-1 px-space-md rounded-full shadow-sm">
+              Most popular
+            </span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary-container font-bold">Business</h3>
+<div class="mt-space-md mb-space-lg">
+<span class="font-display text-display text-on-surface font-bold">BND 50</span>
+<span class="font-body-md text-body-md text-secondary"> / month</span>
+</div>
+<div class="space-y-space-sm pt-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface font-semibold">Everything in Starter</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface">More users</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface">Unlimited transactions</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface">Receipt storage</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface">Invoicing</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface">AI assistant</span>
+</div>
+</div>
+</div>
+<div class="pt-space-xl">
+<button class="w-full h-11 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors shadow-sm" type="button">
+              Choose Business
+            </button>
+</div>
+</div>
+<!-- Premium Plan -->
+<div class="bg-surface-container-lowest rounded-xl p-space-xl flex flex-col justify-between shadow-[0_1px_3px_0_rgba(15,23,42,0.04)]">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Premium</h3>
+<div class="mt-space-md mb-space-lg">
+<span class="font-display text-display text-on-surface font-bold">BND 100</span>
+<span class="font-body-md text-body-md text-secondary"> / month</span>
+</div>
+<div class="space-y-space-sm pt-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface font-semibold">Everything in Business</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface">Multiple branches or companies</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface">Accountant access</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check</span>
+<span class="font-body-md text-body-md text-on-surface">Audit trail</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">schedule</span>
+<span class="font-body-md text-body-md text-secondary">Bank connection and API (Coming soon)</span>
+</div>
+</div>
+</div>
+<div class="pt-space-xl">
+<button class="w-full h-11 rounded-lg bg-surface-container text-on-surface font-label-lg text-label-lg hover:bg-surface-container-high transition-colors" type="button">
+              Choose Premium
+            </button>
+</div>
+</div>
+</div>
+<!-- Feature Comparison Table -->
+<div class="w-full overflow-x-auto bg-surface-container-lowest rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)]">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container text-on-surface font-label-md text-label-md">
+<th class="py-space-md px-space-lg">Feature</th>
+<th class="py-space-md px-space-lg text-center w-1/4">Starter</th>
+<th class="py-space-md px-space-lg text-center w-1/4 bg-surface-container-high text-primary-container">Business</th>
+<th class="py-space-md px-space-lg text-center w-1/4">Premium</th>
+</tr>
+</thead>
+<tbody class="font-body-md text-body-md divide-y divide-surface-container">
+<tr class="hover:bg-surface">
+<td class="py-space-md px-space-lg text-on-surface font-medium">Monthly Price</td>
+<td class="py-space-md px-space-lg text-center font-financial-mono text-financial-mono">BND 25</td>
+<td class="py-space-md px-space-lg text-center font-financial-mono text-financial-mono bg-surface/50 font-bold text-primary-container">BND 50</td>
+<td class="py-space-md px-space-lg text-center font-financial-mono text-financial-mono">BND 100</td>
+</tr>
+<tr class="hover:bg-surface">
+<td class="py-space-md px-space-lg text-on-surface font-medium">User Accounts</td>
+<td class="py-space-md px-space-lg text-center">1 User</td>
+<td class="py-space-md px-space-lg text-center bg-surface/50">Multiple Users</td>
+<td class="py-space-md px-space-lg text-center">Multiple Users</td>
+</tr>
+<tr class="hover:bg-surface">
+<td class="py-space-md px-space-lg text-on-surface font-medium">Monthly Transactions</td>
+<td class="py-space-md px-space-lg text-center text-secondary">Limited</td>
+<td class="py-space-md px-space-lg text-center bg-surface/50 font-medium">Unlimited</td>
+<td class="py-space-md px-space-lg text-center font-medium">Unlimited</td>
+</tr>
+<tr class="hover:bg-surface">
+<td class="py-space-md px-space-lg text-on-surface font-medium">Profit &amp; Loss / Balance Sheet</td>
+<td class="py-space-md px-space-lg text-center">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+<td class="py-space-md px-space-lg text-center bg-surface/50">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+<td class="py-space-md px-space-lg text-center">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+</tr>
+<tr class="hover:bg-surface">
+<td class="py-space-md px-space-lg text-on-surface font-medium">Business Health Score</td>
+<td class="py-space-md px-space-lg text-center">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+<td class="py-space-md px-space-lg text-center bg-surface/50">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+<td class="py-space-md px-space-lg text-center">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+</tr>
+<tr class="hover:bg-surface">
+<td class="py-space-md px-space-lg text-on-surface font-medium">Receipt Storage</td>
+<td class="py-space-md px-space-lg text-center text-outline-variant">—</td>
+<td class="py-space-md px-space-lg text-center bg-surface/50">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+<td class="py-space-md px-space-lg text-center">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+</tr>
+<tr class="hover:bg-surface">
+<td class="py-space-md px-space-lg text-on-surface font-medium">Invoicing</td>
+<td class="py-space-md px-space-lg text-center text-outline-variant">—</td>
+<td class="py-space-md px-space-lg text-center bg-surface/50">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+<td class="py-space-md px-space-lg text-center">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+</tr>
+<tr class="hover:bg-surface">
+<td class="py-space-md px-space-lg text-on-surface font-medium">AI Assistant</td>
+<td class="py-space-md px-space-lg text-center text-outline-variant">—</td>
+<td class="py-space-md px-space-lg text-center bg-surface/50">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+<td class="py-space-md px-space-lg text-center">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+</tr>
+<tr class="hover:bg-surface">
+<td class="py-space-md px-space-lg text-on-surface font-medium">Multiple Branches / Companies</td>
+<td class="py-space-md px-space-lg text-center text-outline-variant">—</td>
+<td class="py-space-md px-space-lg text-center bg-surface/50 text-outline-variant">—</td>
+<td class="py-space-md px-space-lg text-center">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+</tr>
+<tr class="hover:bg-surface">
+<td class="py-space-md px-space-lg text-on-surface font-medium">Accountant Access &amp; Audit Trail</td>
+<td class="py-space-md px-space-lg text-center text-outline-variant">—</td>
+<td class="py-space-md px-space-lg text-center bg-surface/50 text-outline-variant">—</td>
+<td class="py-space-md px-space-lg text-center">
+<span class="material-symbols-outlined text-primary-container text-[20px]">check</span>
+</td>
+</tr>
+<tr class="hover:bg-surface">
+<td class="py-space-md px-space-lg text-on-surface font-medium">Bank Connection &amp; API</td>
+<td class="py-space-md px-space-lg text-center text-outline-variant">—</td>
+<td class="py-space-md px-space-lg text-center bg-surface/50 text-outline-variant">—</td>
+<td class="py-space-md px-space-lg text-center font-label-sm text-label-sm text-secondary font-semibold">Coming soon</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- 5. FAQ SECTION -->
+<section class="w-full py-space-2xl bg-surface" id="FAQ">
+<div class="max-w-[1280px] mx-auto px-margin">
+<div class="max-w-2xl mb-space-2xl">
+<span class="font-label-sm text-label-sm text-primary-container uppercase tracking-wider block mb-space-xs">Answers</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          Frequently asked questions
+        </h2>
+</div>
+<div class="max-w-3xl space-y-space-md" id="faq-accordion">
+<!-- Item 1 (Open by default) -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] overflow-hidden">
+<button class="w-full p-space-lg flex items-center justify-between text-left focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-headline-sm text-headline-sm text-on-surface">Who is KIRA for?</span>
+<span class="material-symbols-outlined text-primary-container transform transition-transform duration-200 rotate-180 faq-icon">expand_more</span>
+</button>
+<div class="px-space-lg pb-space-lg block faq-content">
+<p class="font-body-md text-body-md text-on-surface-variant">
+              KIRA is designed specifically for small business owners, sole proprietors, and freelancers in Brunei who want straightforward bookkeeping without complicated accounting jargon.
+            </p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] overflow-hidden">
+<button class="w-full p-space-lg flex items-center justify-between text-left focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-headline-sm text-headline-sm text-on-surface">Is my business data safe?</span>
+<span class="material-symbols-outlined text-secondary transform transition-transform duration-200 faq-icon">expand_more</span>
+</button>
+<div class="px-space-lg pb-space-lg hidden faq-content">
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Yes, your data is securely stored with encrypted transmission and private account access to protect your business records.
+            </p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] overflow-hidden">
+<button class="w-full p-space-lg flex items-center justify-between text-left focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-headline-sm text-headline-sm text-on-surface">Can I change or cancel my plan?</span>
+<span class="material-symbols-outlined text-secondary transform transition-transform duration-200 faq-icon">expand_more</span>
+</button>
+<div class="px-space-lg pb-space-lg hidden faq-content">
+<p class="font-body-md text-body-md text-on-surface-variant">
+              You can upgrade, downgrade, or cancel your monthly subscription at any time with no lock-in contracts.
+            </p>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] overflow-hidden">
+<button class="w-full p-space-lg flex items-center justify-between text-left focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-headline-sm text-headline-sm text-on-surface">How do I pay?</span>
+<span class="material-symbols-outlined text-secondary transform transition-transform duration-200 faq-icon">expand_more</span>
+</button>
+<div class="px-space-lg pb-space-lg hidden faq-content">
+<p class="font-body-md text-body-md text-on-surface-variant">
+              We accept standard monthly subscription payments in BND via local Brunei bank transfer and major debit or credit cards.
+            </p>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] overflow-hidden">
+<button class="w-full p-space-lg flex items-center justify-between text-left focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-headline-sm text-headline-sm text-on-surface">Is KIRA available in Bahasa Melayu?</span>
+<span class="material-symbols-outlined text-secondary transform transition-transform duration-200 faq-icon">expand_more</span>
+</button>
+<div class="px-space-lg pb-space-lg hidden faq-content">
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Yes, you can easily toggle between English and Bahasa Melayu depending on your preference.
+            </p>
+</div>
+</div>
+<!-- Item 6 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_1px_3px_0_rgba(15,23,42,0.04)] overflow-hidden">
+<button class="w-full p-space-lg flex items-center justify-between text-left focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-headline-sm text-headline-sm text-on-surface">Do I need to know accounting?</span>
+<span class="material-symbols-outlined text-secondary transform transition-transform duration-200 faq-icon">expand_more</span>
+</button>
+<div class="px-space-lg pb-space-lg hidden faq-content">
+<p class="font-body-md text-body-md text-on-surface-variant">
+              No prior accounting knowledge is required. KIRA automatically formats your records into standard financial statements.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. CONTACT SECTION -->
+<section class="w-full py-space-2xl bg-inverse-surface text-inverse-on-surface" id="Contact">
+<div class="max-w-[1280px] mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg">
+<!-- Left details -->
+<div class="lg:col-span-5 flex flex-col justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider block mb-space-xs">Support</span>
+<h2 class="font-headline-lg text-headline-lg text-inverse-on-surface tracking-tight mb-space-lg">
+              Talk to us
+            </h2>
+<p class="font-body-md text-body-md text-surface-variant mb-space-xl">
+              Have questions regarding subscriptions, onboarding, or team access? Our support team in Brunei is available to assist.
+            </p>
+<div class="space-y-space-md">
+<div class="flex items-start gap-space-md">
+<span class="material-symbols-outlined text-primary-fixed text-[20px] shrink-0 mt-0.5">call</span>
+<div>
+<span class="font-label-sm text-label-sm text-surface-variant uppercase tracking-wider block">Phone</span>
+<span class="font-body-md text-body-md text-inverse-on-surface font-medium">[phone number]</span>
+</div>
+</div>
+<div class="flex items-start gap-space-md">
+<span class="material-symbols-outlined text-primary-fixed text-[20px] shrink-0 mt-0.5">mail</span>
+<div>
+<span class="font-label-sm text-label-sm text-surface-variant uppercase tracking-wider block">Email</span>
+<span class="font-body-md text-body-md text-inverse-on-surface font-medium">[email address]</span>
+</div>
+</div>
+<div class="flex items-start gap-space-md">
+<span class="material-symbols-outlined text-primary-fixed text-[20px] shrink-0 mt-0.5">chat</span>
+<div>
+<span class="font-label-sm text-label-sm text-surface-variant uppercase tracking-wider block">WhatsApp</span>
+<span class="font-body-md text-body-md text-inverse-on-surface font-medium">[WhatsApp number]</span>
+</div>
+</div>
+<div class="flex items-start gap-space-md">
+<span class="material-symbols-outlined text-primary-fixed text-[20px] shrink-0 mt-0.5">location_on</span>
+<div>
+<span class="font-label-sm text-label-sm text-surface-variant uppercase tracking-wider block">Address</span>
+<span class="font-body-md text-body-md text-inverse-on-surface font-medium">[business address], Brunei Darussalam</span>
+</div>
+</div>
+<div class="flex items-start gap-space-md">
+<span class="material-symbols-outlined text-primary-fixed text-[20px] shrink-0 mt-0.5">schedule</span>
+<div>
+<span class="font-label-sm text-label-sm text-surface-variant uppercase tracking-wider block">Opening hours</span>
+<span class="font-body-md text-body-md text-inverse-on-surface font-medium">[days and hours]</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right enquiry form -->
+<div class="lg:col-span-7">
+<div class="bg-surface-container-highest/10 p-space-xl rounded-xl shadow-xl backdrop-blur-sm">
+<form class="space-y-space-md" onsubmit="event.preventDefault();">
+<div>
+<label class="block font-label-md text-label-md text-inverse-on-surface mb-1">Name</label>
+<input class="w-full h-11 px-space-md rounded-lg bg-inverse-surface text-inverse-on-surface placeholder:text-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-primary-fixed text-body-md" placeholder="Your name" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-inverse-on-surface mb-1">Email</label>
+<input class="w-full h-11 px-space-md rounded-lg bg-inverse-surface text-inverse-on-surface placeholder:text-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-primary-fixed text-body-md" placeholder="name@business.bn" type="email"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-inverse-on-surface mb-1">Business name</label>
+<input class="w-full h-11 px-space-md rounded-lg bg-inverse-surface text-inverse-on-surface placeholder:text-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-primary-fixed text-body-md" placeholder="Company or trading name" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-inverse-on-surface mb-1">Message</label>
+<textarea class="w-full p-space-md rounded-lg bg-inverse-surface text-inverse-on-surface placeholder:text-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-primary-fixed text-body-md resize-none" placeholder="How can we help your business?" rows="4"></textarea>
+</div>
+<button class="w-full h-11 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors shadow-sm" type="submit">
+                Send message
+              </button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. FINAL CALL TO ACTION -->
+<section class="w-full py-space-2xl bg-surface-container-high">
+<div class="max-w-[1280px] mx-auto px-margin text-center">
+<div class="max-w-2xl mx-auto flex flex-col items-center">
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mb-space-lg">
+          Ready to see how your business is doing?
+        </h2>
+<a class="inline-flex items-center justify-center h-12 px-space-2xl rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors shadow-md" href="#Pricing">
+          Start free trial
+        </a>
+</div>
+</div>
+</section>
+<script>
+    function toggleFaq(btn) {
+      const content = btn.nextElementSibling;
+      const icon = btn.querySelector('.faq-icon');
+      const isHidden = content.classList.contains('hidden');
+      
+      // Close all
+      document.querySelectorAll('#faq-accordion .faq-content').forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('#faq-accordion .faq-icon').forEach(el => {
+        el.classList.remove('rotate-180', 'text-primary-container');
+        el.classList.add('text-secondary');
+      });
+
+      if (isHidden) {
+        content.classList.remove('hidden');
+        icon.classList.add('rotate-180', 'text-primary-container');
+        icon.classList.remove('text-secondary');
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="max-w-[1280px] mx-auto px-margin py-space-2xl"><div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-xl pb-space-xl"><div class="space-y-space-sm max-w-sm"><div class="flex items-center gap-space-sm"><img alt="KIRA Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfhW-sJtj5O5m6_N9T_bdYgdzqbxw1Qf_6p44iV3zfMBGv-Q-J3ByDnemN3q7ej2IOlYKAneGT9HxCFYe9jZLjlI3LgON63_4z8epZ5EpZu0ji6_oV3RreAx68sICdL2ubysxIWx166bzwA-a2iDPR3zzfXb5TgRJ8PP5opTolCjOdlJSxBRb6B6VcXjEvt6fqhttabyiA2aTQhFfFFFeEofdt1LgAmikgDrbNbA5NYl4x3eMW_wAhKwc"/><span class="font-headline-sm text-headline-sm text-on-surface font-bold">KIRA</span></div><p class="font-body-md text-body-md text-on-surface-variant">Online bookkeeping built for small businesses in Brunei.</p></div><nav class="flex flex-wrap items-center gap-x-space-lg gap-y-space-sm"><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary-container transition-colors" href="#Features">Features</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary-container transition-colors" href="#Pricing">Pricing</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary-container transition-colors" href="#FAQ">FAQ</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary-container transition-colors" href="#Contact">Contact</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary-container transition-colors" href="#">Privacy Policy</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary-container transition-colors" href="#">Terms of Service</a></nav></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><div>© 2026 KIRA. All rights reserved.</div><div class="text-secondary font-label-sm text-label-sm uppercase tracking-wider">Brunei Darussalam</div></div></div></footer></body></html>
